@@ -1,6 +1,9 @@
 {
   "name": "@typescript-ddd/express-js",
   "version": "0.0.1",
+  "description": "Typescript domain driven design Express JS integrations",
+  "keywords": ["typescript", "ddd", "domain", "express"],
+  "author": "John Robinson",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "typings": "dist/index.d.ts",
@@ -27,7 +30,7 @@
     "typescript": "^5.1.6",
     "uuid": "^9.0.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "typescript-ddd": "0.0.1"
   }
 }

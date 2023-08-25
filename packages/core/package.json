@@ -1,6 +1,9 @@
 {
   "name": "@typescript-ddd/core",
   "version": "0.0.1",
+  "description": "Typescript domain driven design core library",
+  "keywords": ["typescript", "ddd", "domain", "core"],
+  "author": "John Robinson",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "typings": "dist/index.d.ts",
