@@ -29,7 +29,7 @@ export default [
       typescript({ tsconfig: "./tsconfig.json" }),
       terser(),
     ],
-    external: ["shallow-equal-object"],
+    external: ["uuid", "shallow-equal-object"],
   },
   {
     input: "src/index.ts",
