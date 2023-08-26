@@ -1,0 +1,42 @@
+{
+  "name": "@typescript-ddd/react",
+  "version": "0.0.1",
+  "description": "Typescript domain driven design React JS library",
+  "keywords": [
+    "typescript",
+    "ddd",
+    "domain",
+    "react"
+  ],
+  "author": "John Robinson",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/react": "^18.2.21",
+    "@types/uuid": "^9.0.2",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "rollup": "^3.28.0",
+    "rollup-plugin-dts": "^5.3.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "shallow-equal-object": "^1.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.1.6",
+    "uuid": "^9.0.0"
+  },
+  "dependencies": {
+    "@typescript-ddd/core": "0.0.1"
+  }
+}

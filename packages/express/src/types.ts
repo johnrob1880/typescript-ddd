@@ -1,5 +1,5 @@
 import { Request } from "express";
-import { UniqueEntityId } from "typescript-ddd";
+import { UniqueEntityId } from "@typescript-ddd/core";
 
 export interface AuthUser {
     id: UniqueEntityId;

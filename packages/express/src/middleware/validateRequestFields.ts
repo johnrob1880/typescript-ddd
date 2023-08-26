@@ -1,5 +1,5 @@
 import * as express from "express";
-import { Guard } from "typescript-ddd";
+import { Guard } from "@typescript-ddd/core";
 
 type ValidateRequestOptions = {
   required?: string[];
